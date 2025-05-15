@@ -15,6 +15,7 @@ import base.Base;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utlis.ExcelReader;
 
 
 public class Hooks extends Base {
@@ -30,11 +31,11 @@ public class Hooks extends Base {
 
 		// initialize excel file
 
-		/*
-		 * excelReader = new ExcelReader(); testData = excelReader.getData(
-		 * System.getProperty("user.dir") +
-		 * "\\src\\test\\resources\\testData\\loginTest.xlsx", "LoginTestData");
-		 */
+		
+		  excelReader = new ExcelReader(); testData = excelReader.getData(
+		  System.getProperty("user.dir") +
+		  "\\src\\test\\resources\\testData\\loginTest.xlsx", "LoginTestData");
+		 
 
 		// initialize all Browser just change env file in the config file
 

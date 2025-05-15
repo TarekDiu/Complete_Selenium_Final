@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = {"src\\test\\resources\\features"/* ,"src\\test\\resources\\features" */},	
 		glue = {"step_definations"},
-		tags = "@OrderList", /*and not @login and not @Regression@excelfile or @logininvalid or @login*/
+		tags = "@OrderList or @excelfile", /*and not @login and not @Regression@excelfile or @logininvalid or @login*/
 		monochrome = true,
 		dryRun = false,
 		strict = true,

@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import utlis.ExcelReader;
+
 //import utlis.ExcelReader;
 
 public class Base {
@@ -18,8 +20,8 @@ public class Base {
 	public static FileInputStream fis;
 	public static Properties config;
 	public static String host;
-	//public static ExcelReader excelReader; //use for excelfile
-	//public static List<Map<String, String>> testData;
+	public static ExcelReader excelReader; //use for excelfile
+	public static List<Map<String, String>> testData;
 
 	//Url Method
 	public static void navigateURL(String url) {
