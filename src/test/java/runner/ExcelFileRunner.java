@@ -1,6 +1,7 @@
 package runner;
 
 import org.junit.runner.RunWith;
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
@@ -8,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = {"src\\test\\resources\\features"/* ,"src\\test\\resources\\features" */},	
 		glue = {"step_definations"},
-		tags = "@OrderList or @excelfile", /*and not @login and not @Regression@excelfile or @logininvalid or @login*/
+		tags = "@excelfile", /*and not @login and not @Regression@excelfile or @logininvalid or @login*/
 		monochrome = true,
 		dryRun = false,
 		strict = true,
@@ -18,6 +19,7 @@ import io.cucumber.junit.CucumberOptions;
 					"io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"
 		}				
 )
-public class Runner {
+
+public class ExcelFileRunner {
 
 }

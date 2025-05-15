@@ -1,7 +1,10 @@
 C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\base\Base.java
 C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\pages\Feature_LoginFunction.java
 C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\pages\HomePage.java
-C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\runner\Runner.java
+C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\runner\CustomerOrderRunner.java
+C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\runner\ExcelFileRunner.java
+C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\runner\MasterRunner.java
+C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\runner\OrderListRunner.java
 C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\step_definations\Customer_Order.java
 C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\step_definations\Customer_Totall_Order.java
 C:\Users\tarik\eclipse-workspace\Complete_Pom_Daily_Selenium\src\test\java\step_definations\CustomerLogin.java

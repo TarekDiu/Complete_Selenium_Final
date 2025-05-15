@@ -1,5 +1,5 @@
 
-@Sanity @Regression
+@Sanity @CustomerOrder
 Feature: Customer Order Successfully 
   As a registered customer
   I want to place orders for products

@@ -1,10 +1,13 @@
-runner\Runner.class
 utlis\ExcelReader.class
+runner\ExcelFileRunner.class
+runner\OrderListRunner.class
 pages\HomePage.class
 step_definations\CustomerLoginExcel.class
 pages\Feature_LoginFunction.class
 base\Base.class
 step_definations\Hooks.class
 step_definations\Customer_Order.class
+runner\CustomerOrderRunner.class
 step_definations\CustomerLogin.class
+runner\MasterRunner.class
 step_definations\Customer_Totall_Order.class
