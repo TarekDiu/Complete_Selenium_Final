@@ -1,0 +1,269 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2025-05-16T00:03:05.405Z",
+        "before": [
+          {
+            "result": {
+              "duration": 686552700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definations.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Customer Order Page",
+        "description": "",
+        "id": "customer-order-successfully;customer-order-page",
+        "after": [
+          {
+            "result": {
+              "duration": 178622500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definations.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4159290200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am In the home page as a Customer",
+            "match": {
+              "location": "step_definations.Customer_Order.i_am_In_the_home_page_as_a_Customer(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userId",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "tarek12345@gmail.com",
+                  "Tarek746@"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2932026400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the customer has added products to the cart",
+            "match": {
+              "location": "step_definations.Customer_Order.the_customer_has_added_products_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187848800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the customer put it her name in the name field",
+            "match": {
+              "location": "step_definations.Customer_Order.the_customer_put_it_her_name_in_the_name_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108650000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the customer put it her Phone number in Phone number field",
+            "match": {
+              "location": "step_definations.Customer_Order.the_customer_put_it_her_Phone_number_in_Phone_number_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103347000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the customer put it her address in the address  field",
+            "match": {
+              "location": "step_definations.Customer_Order.the_customer_put_it_her_address_in_the_address_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123236100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the customer click the shipping method",
+            "match": {
+              "location": "step_definations.Customer_Order.the_customer_click_the_shipping_method()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1411804200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the customer complete the order click submit button",
+            "match": {
+              "location": "step_definations.Customer_Order.the_customer_complete_the_order_click_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27921700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the order Complete By assertion method",
+            "match": {
+              "location": "step_definations.Customer_Order.verify_the_order_Complete_By_assertion_method()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@CustomerOrder"
+          }
+        ]
+      }
+    ],
+    "name": "Customer Order Successfully",
+    "description": "  As a registered customer\n  I want to place orders for products\n  So that I can receive items I want to purchase ",
+    "id": "customer-order-successfully",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Feature_Customer_Order.feature",
+    "tags": [
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@CustomerOrder",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 9
+        }
+      }
+    ]
+  }
+]      "result": {
+              "duration": 110322600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Put it my Email in Email field \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 33
+                }
+              ],
+              "location": "step_definations.CustomerLoginExcel.i_Put_it_my_Email_in_Email_field(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81788100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Put it my  Password in Password field",
+            "match": {
+              "location": "step_definations.CustomerLoginExcel.i_Put_it_my_Password_in_Password_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 523224800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the সাবমিট Button",
+            "match": {
+              "location": "step_definations.CustomerLoginExcel.i_click_the_সাবমিট_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137443200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I log in my profile successfully error",
+            "match": {
+              "location": "step_definations.CustomerLoginExcel.i_log_in_my_profile_successfully_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@excelfile"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Customer Login functionality using ExelFile",
+    "description": "",
+    "id": "verify-customer-login-functionality-using-exelfile",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Feature_Customer_LoginExcelFile.feature",
+    "tags": [
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@excelfile",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 9
+        }
+      }
+    ]
+  }
+]
